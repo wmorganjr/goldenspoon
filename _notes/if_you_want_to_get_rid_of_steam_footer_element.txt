@@ -1,0 +1,9 @@
+the steam element at the footer is something you might consider removing. My only issue with it is that it takes up canvas space. meaning if a window is smaller than the frame of the site a scroll bar on the bottom shows up. I don't imagine it being a huge issue, but just in case you want to get rid of it, it's easy to remove:
+
+
+<div id="footer">
+/*delete the following line*/
+
+<div id="steam"></div>
+
+</div>

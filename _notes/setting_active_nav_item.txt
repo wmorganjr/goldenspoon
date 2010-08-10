@@ -1,0 +1,13 @@
+when you wish to suggest the current active top nav menu-item indicative of the page use the class hit. example below:
+
+	<ul id="nav">
+		
+		<li class="hit" ><a href="/#menu_and_prices">Menu</a></li>			
+		
+		<li><a href="/generic.php">page</a></li>				
+			
+		<li><a href="/#location_and_hours">Location</a></li>
+	
+	</ul>
+	
+here, the menu link is active. 

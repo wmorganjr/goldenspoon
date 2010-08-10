@@ -1,0 +1,482 @@
+/*
+Theme Name: GoldenMenu
+Author: Ansy Telfort
+http://sundaycaliber.com
+*/
+
+/* set all defaults*/
+@import 'reset.css';
+
+/* ring in the fonts*/
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */ 
+
+@font-face {
+   font-family: "Diavlo-medium";
+	src: url("../_fonts/Diavlo_MEDIUM_II_37.otf") format("opentype");
+}
+@font-face {
+   font-family: "Diavlo-light";
+	src: url("../_fonts/Diavlo_LIGHT_II_37.otf") format("opentype");
+}
+
+
+/*----------------------------------------------------------------------- 
+	General Typography
+------------------------------------------------------------------------ */
+body{
+	background: #594436 url('../_imgs/body_bg_tile.jpg') repeat;
+	font-family: "Georgia", 'Times', serif;
+	font-size: 12px;
+}
+h1{
+	color:#810606;
+	font-size: 48px;
+	margin-bottom: 0.4em;
+	font-weight: normal;
+}
+h2{
+	color:#810606;
+	font-family: "Diavlo-light",Helvetica, sans-serif;
+	font-size: 42px;
+}
+h3{
+	color:#4f3a19;
+	font-size: 38px;
+	font-weight: normal;
+	margin-bottom: 0.2em;
+	text-transform: capitalize;
+}
+a{
+	color:#b50808;
+	text-decoration: none;
+}
+a:hover,#nav li a:hover{
+	color:#37771A;
+}
+p{
+	color:#725B46;
+	font-size: 16px;
+	line-height: 1.8em;
+	margin-bottom: 1em;
+}
+h1.title{
+	padding-bottom: 10px;
+}
+.title{	
+	background: url('../_imgs/header_border_bottom.png') repeat-x bottom left;
+	text-align: center;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+#location_and_title_head{
+	background: url('../_imgs/locations_and_hours.png') no-repeat bottom left;
+	height:82px;
+	text-indent: -9999px;
+	width:740px;
+	margin-bottom: 5px;
+}
+#menu_and_prices_head{
+	background: url('../_imgs/menu_and_prices.png') no-repeat bottom left;
+	height:82px;
+	text-indent: -9999px;
+	width:740px;
+}
+/*----------------------------------------------------------------------- 
+	General Layout
+------------------------------------------------------------------------ */
+#main{
+	margin:40px auto 50px auto;
+	width:860px;
+}
+#header{
+	background: url('../_imgs/header_bg.png') no-repeat;
+	height:132px;
+	position: relative;
+	width:860px;
+}
+#brand{
+	background: url('../_imgs/goldenspoon_brand.png') no-repeat;
+	display: block;
+	height:208px;
+	left:64px;
+	position: absolute;
+	text-indent: -9999px;
+	top:-28px;
+	width:248px;
+}
+#number{
+	color:#810606;
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	position: absolute;
+	right:70px;
+	top:70px;
+}
+#nav{
+	background: #fff url('../_imgs/nav_bg_tile.png') repeat-x;
+	border:1px solid #d79f97;
+	bottom:-5px;
+	position: absolute;
+	right:64px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+#nav li{
+	border-left: 1px solid #e6cdcc;
+	float: left;
+	height:34px;
+}
+#nav li.first{
+	border-left: none;
+}
+#nav li a{
+	color:#4f3a19;
+	font-family: "Diavlo-medium",Helvetica, sans-serif;
+	font-size: 20px;
+	display: block;	
+	height:32px;
+	text-transform: capitalize;
+	line-height: 38px;
+	padding: 0px 14px;
+}
+#nav li.hit a{
+	color:#37771A;
+}
+#content{
+	background: url('../_imgs/bg_tile.png') repeat-y;
+	float: left;
+	padding:80px 60px 0px;
+	min-height:200px;
+	width:740px;
+}
+#footer{
+	background: url('../_imgs/footer_bg.png') no-repeat;
+	clear: both;
+	position: relative;
+	height:132px;
+	width:860px;
+}
+#steam{
+	background: url('../_imgs/steam.png') no-repeat top left;
+	height:312px;
+	width:376px;
+	bottom:0px;
+	right:0px;
+	margin-right:-120px;
+	position: absolute;
+}
+.section{
+	float: left;
+	clear: both;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+/*----------------------------------------------------------------------- 
+	News Section
+------------------------------------------------------------------------ */
+
+#news{
+	margin-bottom: 20px;
+}
+#news-snaps{
+	float: left;
+	width:400px;
+}
+#news-snap-container{
+	position: relative;
+	width:400px;
+}
+#news-snap-container img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+#snap-nav{
+	float: left;
+	clear: left;
+	margin-top: 10px;
+}
+#snap-nav a{
+	background-color: #e1c6b8;
+	float: left;
+	height:10px;
+	margin-right: 5px;
+	text-indent: -99999px;
+	width:10px;
+	
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+}
+#snap-nav a.activeSlide{
+	background-color: #810606;
+}
+
+#news-blurb{
+	float: right;
+	width:315px;
+}
+/*----------------------------------------------------------------------- 
+	Directions and hours
+------------------------------------------------------------------------ */
+#directions-and-hours{
+	
+}
+/*map*/
+#map{
+	display: none;
+	float: left;
+	height:480px;
+	overflow: hidden;
+	width:740px;
+}
+
+/*hours*/
+table{
+	background:#fff url('../_imgs/box_bg_tile.png') repeat-x bottom left;
+	border-collapse:separate;
+	border:1px solid #d79f97;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	width:100%;
+	
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 1px #9d423d;
+	-moz-box-shadow:0px 1px #9d423d;
+	-moz-border-radius:5px;
+}
+thead{
+	color:#810606;
+	font-size: 18px;
+	text-align: center;
+}
+thead td{
+	border-bottom: 1px solid #d9b4b4;	
+}
+thead span{
+	font-style:italic;
+	font-weight: normal;
+}
+tbody span{
+	color:#DB7E76;
+	display: block;
+	font-size: 20px;
+	margin:0px auto 10px auto;
+	text-align: center;
+	padding: 12px 0px;
+	width:140px;
+	border: 1px solid #d79f97;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+tbody span.open{
+	border: 1px solid #701010;
+	color:#701010;
+	
+}
+td{
+	border-left: 1px solid #d9b4b4;
+	padding: 15px 0px;
+}
+td.first{
+	border-left: none;
+}
+
+/*menu-navigation*/
+
+#menu-nav{
+	clear: both;
+	height:52px;	
+	margin:0 auto;
+	width:369px;
+}
+#menu-nav li#breakfast-tab{
+	background: url('../_imgs/menu_nav_bg.png') no-repeat -184px 0px;
+	border-right: 1px solid #340202;
+}
+#menu-nav li{
+	background: url('../_imgs/menu_nav_bg.png') no-repeat 0px 0px;
+	color:#4e0202;
+	float: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	height:52px;
+	line-height: 2.2em;
+	text-align: center;
+	width:184px;
+	
+	text-shadow:1px 1px #C45454;
+}
+#menu-nav #breakfast-tab.hit{
+	text-shadow:1px 1px #C41C1A;
+	background: url('../_imgs/menu_nav_bg.png') no-repeat -552px 0px;
+	
+}
+#menu-nav #lunch-tab.hit{
+	text-shadow:1px 1px #C41C1A;
+	background: url('../_imgs/menu_nav_bg.png') no-repeat -368px 0px;
+	
+}
+
+/*menu*/
+
+
+#menu-panel{
+	border:1px solid #d79f97;
+	background-color: #fff;
+	width:100%;
+	float: left;
+	overflow: hidden;
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 1px #9d423d;
+	-moz-box-shadow:0px 1px #9d423d;
+	-moz-border-radius:5px;
+}
+#slider{
+	float: left;
+	margin-left: 0px;
+	width:1480px;
+}
+.categories{
+	float: left;
+	width:740px;
+}
+.categories div{
+	border-bottom: 1px solid #c08282;
+	float: left;
+	display: none;
+}
+.cat-nest{
+	float: left;
+	background: url('../_imgs/nested_cat_bg_tile.png') repeat;
+	width:100%;	
+}
+.cat-nest li:first-child{
+	background: url('../_imgs/cat_nest_top_shadow.png') repeat-x top left;
+}
+.cat-nest li.last{
+	border-bottom: none;
+	background: url('../_imgs/cat_nest_bottom_shadow.png') repeat-x bottom left;
+}
+.cat-nest li{
+	float: left;
+	background: none;
+	border-bottom: 1px solid #CFCFCF;
+	padding: 10px 0px ;
+	width:100%;
+}
+.cat-sub a,.dish-price{
+	cursor: default;
+	color:#63523E;
+}
+ .dish-label{
+	display: block;
+	float: left;
+	font-family: "Georgia", 'Times', serif;
+	font-size: 22px;
+	padding-left: 50px;
+	text-transform: capitalize;
+	width:600px;
+}
+.dish-detail{
+	display: block;
+	margin-top: 5px;
+	text-transform: none ;
+	line-height: 1.4em;
+	font-size: 14px;
+}
+.dish-price{	
+	display: block;
+	float: right;
+	font-family: "Diavlo-medium",Helvetica, sans-serif;
+	font-size: 22px;
+	padding-top: 5px;
+	text-align: left;
+	width:85px;
+}
+ .cat-head{
+	float: left;
+	border-bottom: 1px solid #c08282;
+	display: block;
+	font-size: 28px;
+	font-family: "Diavlo-medium",Helvetica, sans-serif;
+	padding: 16px 0px 11px;
+	text-indent: 30px;
+	width:100%;
+	
+}
+.cat-head a:hover{
+	color:#37771A;
+}
+.cat-head a{
+	color:inherit;
+}
+.cat-head span{
+	background: url('../_imgs/drop_arrow_green.png') no-repeat top right;
+	padding-right: 30px;
+	float: left;
+}
+.cat-head.hit span{
+	background: url('../_imgs/drop_arrow_green.png') no-repeat bottom right;
+	
+}
+.cat-head a{
+	color:#4f3a19;
+	font-family: "Diavlo-medium",Helvetica, sans-serif;
+	font-weight: normal;
+	
+}
+.cat-head.hit a{
+	color:#37771A;
+}
+
+.cat-head.hit{
+	background: url('../_imgs/cat_tab_bg_tile.png') repeat-x bottom left;	
+}
+.cat-head.hit:first-child{
+	-webkit-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+}
+.categories li.last{
+	border-bottom: none;
+}
+/*----------------------------------------------------------------------- 
+	Misc Buttons and items
+------------------------------------------------------------------------ */
+.btn{
+	background-color: #b50808;
+	color:#fff;
+	display: block;
+	float: right;
+	font-family: "Diavlo-medium",Helvetica, sans-serif;
+	font-size: 17px;
+	padding:  10px 10px 7px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+.btn.hit{
+	background-color: #37771A;
+}
+
+.btn:hover{
+	color:#fff;
+	background-color: #37771A;
+}
+.credit{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#F8F3DE;
+	clear: both;
+	font-style:italic;
+	margin-top: 10px;
+	font-size: 10px;
+	float: right;
+}
+.credit:hover{
+	color:white;
+}
+.credit a{
+	color:inherit;
+}

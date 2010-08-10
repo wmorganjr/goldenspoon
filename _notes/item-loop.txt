@@ -1,0 +1,21 @@
+div.category
+
+/*item-loop*/
+
+	h4.cat-head--endof h4.cat-head /* this is the actual 'button' the user clicks, also the category label */
+	
+	div.cat-sub
+	
+		ul.cat-nest
+	
+			li
+				a.dish-label em.dish-detail endof a.dish-label cite.dish-price
+			/li
+	
+	endof div.cat-sub
+
+/*end-of-item-loop*/
+
+endof div.category
+
+	

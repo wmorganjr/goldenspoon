@@ -1,0 +1,11 @@
+when you wish to add images to the image slider on the home page, simple insert the img tags in the array children of the div 'news-snap-container' example below. 
+
+<div id="news-snaps">	
+	<div id="news-snap-container">	
+
+/*inset images here*/
+		<img  alt="image" src="/_media/images/image_placeholder_01.jpg" />
+
+	</div> <!-- news-snap-container -->
+	<div id="snap-nav"></div>
+</div><!-- news-snaps -->

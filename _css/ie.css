@@ -1,0 +1,29 @@
+
+#nav li a{
+	display: inline;
+	line-height: 1.6em;
+}
+#menu-nav li{
+	color:#1E0404;
+	line-height: 2em;
+}
+#menu-nav li.hit{
+	color:#fff;
+}
+
+.btn{
+	background-color: transparent;
+	color:#b50808;
+	display: inline;
+	float: none;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+}
+* html .cat-head.hit{
+	background-image: none;
+	background-color: #FAFBC2;
+}
+*html .cat-head span,*html  .cat-head.hit span, *html .cat-nest li.last {
+	background-image: none;
+}
