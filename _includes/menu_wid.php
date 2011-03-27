@@ -1,6 +1,6 @@
 <ul id="menu-nav">
-	<li id="breakfast-tab" class="hit">breakfast</li>
-	<li id="lunch-tab">lunch</li>
+	<li id="breakfast-tab" class="hit">Breakfast</li>
+	<li id="lunch-tab">Lunch</li>
 </ul>
 
 <div id="menu-panel">
@@ -14,10 +14,10 @@
 				<ul class="cat-nest">
 				
 					<li>
-						<a href="#" class="dish-label">one egg combo<em class="dish-detail">Served with Toast and Homefries or With Bacon, Ham, Hash, or Sausage for $4.75</em></a><cite class="dish-price">$3.00</cite>
+						<a href="#" class="dish-label">one egg combo<em class="dish-detail">Served with Toast and Homefries. With Bacon, Ham, Hash, or Sausage for $4.75</em></a><cite class="dish-price">$3.00</cite>
 					</li>				
 					<li>
-						<a href="#" class="dish-label">two egg combo<em class="dish-detail">Served with Toast and Homefries or With Bacon, Ham, Hash, or Sausage for $5.00</em></a><cite class="dish-price">$3.75</cite>
+						<a href="#" class="dish-label">two egg combo<em class="dish-detail">Served with Toast and Homefries. With Bacon, Ham, Hash, or Sausage for $5.50</em></a><cite class="dish-price">$3.75</cite>
 					</li>				
 					<li>
 						<a href="#" class="dish-label">steak and eggs<em class="dish-detail">6oz. Sirloin with Two Eggs, Toast and Homefries</em></a><cite class="dish-price">$8.50</cite>
@@ -159,7 +159,10 @@
 						<a href="#" class="dish-label">banana<em class="dish-detail"></em></a><cite class="dish-price">$1.25</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">breakfast parfait<em class="dish-detail">Smoked Salmon (rich in Omega 3),Bagel, Cream Cheese, Capers, Red Onion &amp; Tomato Slices</em></a><cite class="dish-price">$7.00</cite>
+						<a href="#" class="dish-label">breakfast parfait<em class="dish-detail">Layers of Fresh Berries, Vanilla Yogurt &amp; Crunchy Granola</em></a><cite class="dish-price">$7.00</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">bagel &amp; lox platter<em class="dish-detail">Smoked Salmon (rich in Omega 3),Bagel, Cream Cheese, Capers, Red Onion &amp; Tomato Slices</em></a><cite class="dish-price">$7.00</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">hot oatmeal<em class="dish-detail">With Raisins for only $2.80</em></a><cite class="dish-price">$2.59</cite>
@@ -181,7 +184,7 @@
 						<a href="#" class="dish-label">cinnamon coffee roll</a><cite class="dish-price">$2.49</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">bagel<em class="dish-detail">Plain, Onion, Wheat. or Raisin With Cream Cheese for $2.49</em></a><cite class="dish-price">$1.99</cite>
+						<a href="#" class="dish-label">bagel<em class="dish-detail">Plain, Onion, Wheat, or Raisin. With Cream Cheese - $2.49</em></a><cite class="dish-price">$1.99</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">grilled cornbread</a><cite class="dish-price">$2.49</cite>
@@ -190,7 +193,7 @@
 						<a href="#" class="dish-label">muffin</a><cite class="dish-price">$1.99</cite>
 					</li>
 					<li >
-						<a href="#" class="dish-label">toast<em class="dish-detail">White, Wheat, Raisin, Italian, Light or Dark Rye,Multi Grain, English Muffin</em></a><cite class="dish-price">$1.65</cite>
+						<a href="#" class="dish-label">toast<em class="dish-detail">White, Wheat, Raisin, Italian, Light or Dark Rye, Multi Grain, English Muffin</em></a><cite class="dish-price">$1.65</cite>
 					</li>
 			
 				</ul> <!-- cat-nest -->
@@ -218,6 +221,30 @@
 		
 				<ul class="cat-nest">
 					<li>
+						<a href="#" class="dish-label">Eggs Benedict<em class="dish-detail">Classic style with Poached Eggs, Country Ham &amp; Hollandaise on English Muffin</em></a><cite class="dish-price">$6.75</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">Irish Benedict<em class="dish-detail">Corned Beef Hash</em></a><cite class="dish-price">$7.00</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">Veggie Benedict<em class="dish-detail">Fresh Spinach, Sliced Tomato &amp; Mushrooms</em></a><cite class="dish-price">$6.75</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">Country Style<em class="dish-detail">Grilled Sausage Patties</em></a><cite class="dish-price">$6.75</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">Eggs Blackstone<em class="dish-detail">Smoky Bacon</em></a><cite class="dish-price">$6.95</cite>
+					</li>
+					<li>
+						<a href="#" class="dish-label">Salmon Benedict<em class="dish-detail">Smoked Salmon</em></a><cite class="dish-price">$7.50</cite>
+					</li>
+				</ul><!-- cat-nest -->
+			</div> <!-- bennies -->
+			<h4 class="cat-head"><a href="#">Breakfast Extras &amp; Sides</a></h4>
+			<div id="side-orders" class="cat-sub">
+		
+				<ul class="cat-nest">
+					<li>
 						<a href="#" class="dish-label">homefries<em class="dish-detail"></em></a><cite class="dish-price">$2.50</cite>
 					</li>
 					<li>
@@ -240,7 +267,7 @@
 					</li>
 			
 				</ul><!-- cat-nest -->
-			</div> <!-- bennies -->
+			</div> <!-- side-orders -->
 						
 		</div> <!-- end of breakfast_categories  -->
 		
@@ -253,10 +280,10 @@
 				<ul class="cat-nest">
 					
 					<li>
-						<a href="#" class="dish-label">soup of the day</a><cite class="dish-price">$2.99</cite>
+						<a href="#" class="dish-label">soup of the day</a><cite class="dish-price">$2.50 / $2.99</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">chowder</a><cite class="dish-price">$4.49</cite>
+						<a href="#" class="dish-label">chowder</a><cite class="dish-price">$3.30 / $4.59</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">soup &amp; salad combo <em class="dish-detail">A Cup of Soup or Chowder Served with a Garden Salad</em></a><cite class="dish-price">$5.99</cite>
@@ -313,7 +340,7 @@
 						<a href="#" class="dish-label">chicken fingers<em class="dish-detail">with dipping sauce. Small for $3.50, Medium for $5.95 and a Large for $9.50</em> </a>
 					</li>
 					<li >
-						<a href="#" class="dish-label">cold slaw </a><cite class="dish-price">$1.50</cite>
+						<a href="#" class="dish-label">cole slaw </a><cite class="dish-price">$1.50</cite>
 					</li>
 					
 				</ul> <!-- cat-nest -->
@@ -336,7 +363,7 @@
 						<a href="#" class="dish-label">fruit salad<em class="dish-detail">Season Fruit with Cottage Cheese</em></a><cite class="dish-price">$5.25</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">caesar salad<em class="dish-detail">Crisp Romaine Tossed with Creamy Caesar Dressing ,Parmesan Cheese &amp; Crutons</em></a><cite class="dish-price">$4.75</cite>
+						<a href="#" class="dish-label">caesar salad<em class="dish-detail">Crisp Romaine Tossed with Creamy Caesar Dressing, Parmesan Cheese &amp; Crutons</em></a><cite class="dish-price">$4.75</cite>
 					</li>
 					<li >
 						<a href="#" class="dish-label">spinach &amp; berry salad<em class="dish-detail">Fresh Spinach, Walnuts, Strawberries, Cranberries,Cheddar Cheese &amp; Raspberry Vinaigrette</em></a><cite class="dish-price">$5.99</cite>
@@ -371,7 +398,7 @@
 						<a href="#" class="dish-label">scallop plate</a><cite class="dish-price">$11.50</cite>
 					</li>
 					<li >
-						<a href="#" class="dish-label">fisherman's platter<em class="dish-detail">A Seafood Lovers Delight Fresh Clams, Scallops, Shrimp and Fish</em></a><cite class="dish-price">$14.50</cite>
+						<a href="#" class="dish-label">fisherman's platter<em class="dish-detail">A Seafood Lovers Delight - Fresh Clams, Scallops, Shrimp and Fish</em></a><cite class="dish-price">$14.50</cite>
 					</li>
 					
 				</ul> <!-- cat-nest -->
@@ -394,7 +421,7 @@
 						<a href="#" class="dish-label">tuna club<em class="dish-detail">Served on Toast with Bacon, Lettuce, Tomato &amp; Mayo</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li >
-						<a href="#" class="dish-label">turkey club<em class="dish-detail">Served on Toast with Bacon, Lettuce, Tomato &amp; Mayo</em></a><cite class="dish-price">$6.50</cite>
+						<a href="#" class="dish-label">turkey club<em class="dish-detail">Served on Toast with Bacon, Lettuce, Tomato &amp; Mayo</em></a><cite class="dish-price">$6.25</cite>
 					</li>
 					
 				</ul> <!-- cat-nest -->
@@ -405,10 +432,10 @@
 				<ul class="cat-nest">
 					
 					<li>
-						<a href="#" class="dish-label">veggie roll up<em class="dish-detail">With Fresh Veggies ,Cheese, Lettuce and Tomato</em></a><cite class="dish-price">$6.00</cite>
+						<a href="#" class="dish-label">veggie roll up<em class="dish-detail">With Fresh Veggies, Cheese, Lettuce and Tomato</em></a><cite class="dish-price">$6.00</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">pastrami &amp; cheese wrap<em class="dish-detail">With Lettuce,Tomato &amp; Mustard</em></a><cite class="dish-price">$6.50</cite>
+						<a href="#" class="dish-label">pastrami &amp; cheese wrap<em class="dish-detail">With Lettuce, Tomato &amp; Mustard</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">tuna wrap<em class="dish-detail">With Lettuce and Tomato</em></a><cite class="dish-price">$6.25</cite>
@@ -417,19 +444,19 @@
 						<a href="#" class="dish-label">chicken salad wrap<em class="dish-detail">With Lettuce and Tomato</em></a><cite class="dish-price">$6.25</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">bbq chicken wrap<em class="dish-detail">Crisp Chicken, Tangy Sauce, Lettuce &amp; Tomato</em></a><cite class="dish-price">$6.25</cite>
+						<a href="#" class="dish-label">BBQ chicken wrap<em class="dish-detail">Crisp Chicken, Tangy Sauce, Lettuce &amp; Tomato</em></a><cite class="dish-price">$6.25</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">spicy buffalo chicken<em class="dish-detail">Crisp Spicy Chicken,Lettuce,Tomato &amp; Bleu Cheese Dressing</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">turkey club wrap<em class="dish-detail">Sliced Turkey,Bacon,Lettuce,Tomato &amp; Mayo.</em></a><cite class="dish-price">$6.50</cite>
+						<a href="#" class="dish-label">turkey club wrap<em class="dish-detail">Sliced Turkey, Bacon, Lettuce, Tomato &amp; Mayo.</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">steak &amp; cheese wrap<em class="dish-detail">with Mushrooms,Peppers,Onions &amp; Provolone</em></a><cite class="dish-price">$6.50</cite>
+						<a href="#" class="dish-label">steak &amp; cheese wrap<em class="dish-detail">with Mushrooms, Peppers, Onions &amp; Provolone</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">blt wrap<em class="dish-detail">Crisp Bacon,Lettuce,Tomato &amp; Mayo.</em></a><cite class="dish-price">$5.50</cite>
+						<a href="#" class="dish-label">BLT wrap<em class="dish-detail">Crisp Bacon, Lettuce, Tomato &amp; Mayo.</em></a><cite class="dish-price">$5.50</cite>
 					</li>
 					
 				</ul> <!-- cat-nest -->
@@ -449,7 +476,7 @@
 						<a href="#" class="dish-label">western<em class="dish-detail">Diced Ham and Onions</em></a><cite class="dish-price">$4.25</cite>
 					</li>
 					<li>
-						<a href="#" class="dish-label">open sirloin steak<em class="dish-detail">Served with Lettuce &amp; Tomato</em></a><cite class="dish-price">$7.25</cite>
+						<a href="#" class="dish-label">open sirloin steak<em class="dish-detail">Served with Lettuce &amp; Tomato</em></a><cite class="dish-price">$7.75</cite>
 					</li>
 					<li>
 						<a href="#" class="dish-label">fried chicken sandwich<em class="dish-detail">On a Toasted Bun</em></a><cite class="dish-price">$5.50</cite>
@@ -494,7 +521,7 @@
 						<a href="#" class="dish-label">hot dog plate<em class="dish-detail">two dogs</em></a><cite class="dish-price">$6.50</cite>
 					</li>
 					<li >
-						<a href="#" class="dish-label">THE G.S.BURGER<em class="dish-detail">With Melted Swiss, Bacon B.B.Q.Sauce and Topped with Lettuce,Tomato &amp; Onion Rings</em></a><cite class="dish-price">$5.00</cite>
+						<a href="#" class="dish-label">The G.S. Burger<em class="dish-detail">With Melted Swiss, Bacon B.B.Q.Sauce and Topped with Lettuce,Tomato &amp; Onion Rings</em></a><cite class="dish-price">$5.00</cite>
 					</li>
 					
 				</ul> <!-- cat-nest -->

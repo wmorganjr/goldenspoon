@@ -4,18 +4,14 @@
 		<div id="news" class="section">	
 			<div id="news-snaps">	
 				<div id="news-snap-container">	
-					<img  alt="image" src="_media/images/image_placeholder_01.jpg" />
-					<img  alt="image" src="_media/images/image_placeholder_02.jpg" />
-					<img  alt="image" src="_media/images/image_placeholder_03.jpg" />
-					<img  alt="image" src="_media/images/image_placeholder_04.jpg" />
-					<img  alt="image" src="_media/images/image_placeholder_05.jpg" />
+					<img  alt="image" src="_media/images/front2.jpg" />
 				</div> <!-- news-snap-container -->
 				<div id="snap-nav"></div>
 			</div><!-- news-snaps -->
 					
 			<div id="news-blurb">
-				<h2>Hopkintons's Best Bite to Eat!</h2>
-				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<h2>Hopkinton's Best Place to Eat!</h2>
+				<p>A Hopkinton landmark for over 20 years, the Golden Spoon Restaurant offers great food at great prices. The restaurant serves breakfast and lunch, as well as Friday night dinners featuring high-quality area seafood. Bring your family! Exit 21A off I-495. </p>
 			</div><!-- news-blurb -->	
 		</div> <!-- news -->
 	
@@ -50,11 +46,11 @@
 						</td>
 						<td>
 							<span>Open 5am</span>
-							<span>Close 1pm</span>
+							<span>Close 2pm</span>
 						</td>
 						<td>
 							<span>Open 6am</span>
-							<span>Close 1pm</span>
+							<span>Close 2pm</span>
 						</td>
 					</tr>
 				</tbody>
